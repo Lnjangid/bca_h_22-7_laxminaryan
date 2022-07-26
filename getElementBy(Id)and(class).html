@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>getElementByID</title>
+
+    </head>
+    <body>
+        <h1 id="inner"></h1>
+        <span id="colors">hello world</span>
+        <p id="get">hello world</p>
+        <div id="hii">hello</div>
+        <blockquote>hello world</blockquote>
+        <h2 class="next">hello class</h2>
+        <h3 class="ok">hello class</h3>
+    </body>
+    <script>
+        document.getElementById("colors").style.color="blue";
+        document.getElementById("inner").innerHTML="hello world";
+        document.getElementById("get").style.backgroundColor="red";
+        document.getElementById("hii").style.textAlign="center";
+        document.getElementsByClassName("next")[0].style.textAlign="center";
+        document.getElementsByClassName("ok")[0].style.border="10px solid green";
+    </script>
+</html>
